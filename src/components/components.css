@@ -48,6 +48,8 @@
   font-weight: 700;
   line-height: 64px;
   margin: 16px 0px;
+  width: 100%;
+  max-width: 480px;
 }
 
 .heroleft h1 span {

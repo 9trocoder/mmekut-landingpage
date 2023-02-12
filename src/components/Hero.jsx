@@ -7,8 +7,7 @@ function Hero() {
       <div className="hero">
         <div className="heroleft">
           <h1>
-            The one place to <br />
-            stay <span>Organized </span>and productive
+            The one place to stay <span>Organized </span>and productive
           </h1>
           <p>
             Mmekut is built to handle multiple projects across cross-functional
