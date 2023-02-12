@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import navlogo from "../assets/svg/mmekutlogo.svg";
+import menu from "../assets/svg/menu.svg";
 import "./components.css"
 
 function Navbar() {
@@ -18,6 +19,9 @@ function Navbar() {
                 <Link to="/" className="navbar_rightitem">The Team</Link>
                 <Link to="/" className="navbar_rightitem">Log in</Link>
                 <Link to="/" className="navbar_rightitem  navbar_button">Get started</Link>
+                <div className="navmenu">
+                    <img src={menu} alt="" />
+                </div>
             </div>
         </nav>
     </>
