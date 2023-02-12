@@ -168,6 +168,8 @@
 
   .heroleft h1 {
     width: 100%;
+    font-size: 36px;
+    line-height: 46px;
   }
   .join {
     padding: 140px 16px;
