@@ -84,6 +84,7 @@
 }
 
 .heroright img {
+  width: 100%;
   height: 465px;
 }
 
@@ -165,6 +166,9 @@
     grid-template-columns: 1fr;
   }
 
+  .heroleft h1 {
+    width: 100%;
+  }
   .join {
     padding: 140px 16px;
   }
