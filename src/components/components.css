@@ -85,7 +85,6 @@
 
 .heroright img {
   width: 100%;
-  height: 465px;
 }
 
 /* join */
@@ -182,6 +181,7 @@
   .hero {
     padding: 116px 16px;
     grid-template-columns: 1fr;
+    gap: 48px;
   }
 
   .herobtn {
