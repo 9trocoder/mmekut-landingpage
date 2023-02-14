@@ -143,8 +143,6 @@
   justify-content: center;
 }
 
-
-
 .sectionone_cnt {
   display: flex;
   flex-direction: column;
@@ -173,6 +171,21 @@
 .sectionone_cnt img {
   width: 100%;
 }
+
+/* sectiontwo */
+.sectionbody {
+  padding: 140px 100px;
+}
+
+.sectioncnt {
+  max-width: 1366px;
+  margin: 0 auto;
+  background: rgba(1, 132, 251, 0.05);
+  border-radius: 44px;
+}
+
+
+
 @media screen and (max-width: 900px) {
   /* nav */
   .navbar_rightitem {
@@ -187,6 +200,10 @@
   .hero,
   .join {
     padding: 116px 50px;
+  }
+
+  .sectionbody {
+    padding: 140px 50px;
   }
 
   .sectionone {
@@ -237,8 +254,10 @@
   .join {
     padding: 140px 16px;
   }
+  .sectionbody {
+    padding: 140px 16px;
+  }
 
-  
   .sectionone {
     padding-left: 16px;
     padding-right: 16px;
