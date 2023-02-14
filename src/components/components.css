@@ -206,7 +206,7 @@
   justify-self: start;
 }
 
-.sectag label {
+.sectag h6 {
   color: #fff;
   font-weight: 600;
   line-height: 19.2px;
@@ -329,6 +329,13 @@
     font-size: 14px;
     letter-spacing: 0.2268px;
     line-height: 24px;
+  }
+
+  .sectag h6 {
+    color: #fff;
+    font-weight: 600;
+    line-height: 19.2px;
+    font-size: 12px;
   }
 }
 
