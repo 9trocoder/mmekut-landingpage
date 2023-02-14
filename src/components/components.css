@@ -244,7 +244,7 @@
   }
 
   .sectionbody {
-    padding: 140px 50px;
+    padding: 140px 50px 0 50px;
   }
 
   .sectionone {
@@ -308,7 +308,7 @@
 
   /* section two */
   .sectionbody {
-    padding: 140px 50px;
+    padding: 140px 50px 0 50px;
   }
 
   .sectionone {
@@ -341,7 +341,7 @@
 
 @media screen and (max-width: 425px) {
   .sectionbody {
-    padding: 140px 16px;
+    padding: 140px 16px 0px 16px;
   }
 
   .sectiontwoleft h2 {
