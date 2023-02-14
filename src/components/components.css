@@ -182,6 +182,13 @@
   margin: 0 auto;
   background: rgba(1, 132, 251, 0.05);
   border-radius: 44px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  padding: 97px 74px;
+}
+
+.sectioncnt img {
+  width: 100%;
 }
 
 
@@ -209,6 +216,11 @@
   .sectionone {
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .sectioncnt {
+    grid-template-columns: 1fr;
+    padding: 40px 50px;
   }
 }
 
@@ -243,6 +255,11 @@
     gap: 48px;
   }
 
+  .sectioncnt {
+    grid-template-columns: 1fr;
+    padding: 20px 20px;
+  }
+
   .herobtn {
     height: 45px;
   }
@@ -254,12 +271,21 @@
   .join {
     padding: 140px 16px;
   }
+
+  /* section two */
   .sectionbody {
-    padding: 140px 16px;
+    padding: 140px 50px;
   }
+
 
   .sectionone {
     padding-left: 16px;
     padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sectionbody {
+    padding: 140px 16px;
   }
 }
