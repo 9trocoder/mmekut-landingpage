@@ -214,15 +214,17 @@
 }
 
 .sectiontwoleft h2 {
-  color: #323b4b;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 64px;
-  margin: 0px 0px 16px;
+  color: #333333;
+  font-size: 39px;
+  font-weight: 800;
+  line-height: 53px;
 }
 
 .sectiontwoleft p {
-  
+  font-size: 14px;
+  line-height: 27px;
+  color: #4e5d78;
+  letter-spacing: 0.2592px;
 }
 
 @media screen and (max-width: 900px) {
@@ -313,10 +315,33 @@
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .sectiontwoleft h2 {
+    color: #323b4b;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 0px 0px 16px;
+  }
+
+  .sectiontwoleft p {
+    color: #4e5d78;
+    font-size: 14px;
+    letter-spacing: 0.2268px;
+    line-height: 24px;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .sectionbody {
     padding: 140px 16px;
+  }
+
+  .sectiontwoleft h2 {
+    color: #323b4b;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 0px 0px 16px;
   }
 }
