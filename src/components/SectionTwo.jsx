@@ -1,6 +1,6 @@
 import React from 'react'
 import "./components.css"
-import reminderimg from "../assets/svg/"
+import reminderimg from "../assets/svg/reminder.svg"
 
 function SectionTwo() {
   return (
