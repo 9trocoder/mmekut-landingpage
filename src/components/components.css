@@ -188,11 +188,13 @@
   padding: 97px 74px;
 }
 
-.sectioncnt img {
+.sectioncnt img,
+.sectionthree img {
   width: 100%;
 }
 
-.sectiontwoleft {
+.sectiontwoleft,
+.sectionthreeleft {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -206,25 +208,55 @@
   justify-self: start;
 }
 
-.sectag h6 {
+.secthreetag {
+  background: #ef01f5;
+  margin: 0px 0px 24px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  justify-self: start;
+}
+
+.sectag h6,
+.secthreetag h6 {
   color: #fff;
   font-weight: 600;
   line-height: 19.2px;
   font-size: 14px;
 }
 
-.sectiontwoleft h2 {
+.sectiontwoleft h2,
+.sectionthreeleft h2 {
   color: #333333;
   font-size: 39px;
   font-weight: 800;
   line-height: 53px;
 }
 
-.sectiontwoleft p {
+.sectiontwoleft p,
+.sectionthreeleft p {
   font-size: 14px;
   line-height: 27px;
   color: #4e5d78;
   letter-spacing: 0.2592px;
+}
+
+/* sectionthree */
+.sectionthree {
+  max-width: 1166px;
+  margin: 0 auto;
+  background: rgba(255, 68, 255, 0.05);
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+  padding: 97px 74px;
+}
+
+@media screen and (max-width: 1166px) {
+  .sectionthree {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -252,15 +284,14 @@
     padding-right: 50px;
   }
 
-  .sectioncnt {
-    grid-template-columns: 1fr;
-    padding: 40px 50px;
+  .sectionthree {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
 @media screen and (max-width: 500px) {
   /* nav */
-
   .navlogo img {
     width: 100%;
     height: 25px;
@@ -294,6 +325,10 @@
     padding: 20px 20px;
   }
 
+  .sectionthree {
+    padding: 20px 20px;
+  }
+
   .herobtn {
     height: 45px;
   }
@@ -316,7 +351,8 @@
     padding-right: 16px;
   }
 
-  .sectiontwoleft h2 {
+  .sectiontwoleft h2,
+  .sectionthreeleft h2 {
     color: #323b4b;
     font-size: 28px;
     font-weight: 700;
@@ -324,14 +360,16 @@
     margin: 0px 0px 16px;
   }
 
-  .sectiontwoleft p {
+  .sectiontwoleft p,
+  .sectionthreeleft p {
     color: #4e5d78;
     font-size: 14px;
     letter-spacing: 0.2268px;
     line-height: 24px;
   }
 
-  .sectag h6 {
+  .sectag h6,
+  .secthreetag h6 {
     color: #fff;
     font-weight: 600;
     line-height: 19.2px;
@@ -344,7 +382,8 @@
     padding: 140px 16px 0px 16px;
   }
 
-  .sectiontwoleft h2 {
+  .sectiontwoleft h2,
+  .sectionthreeleft h2 {
     color: #323b4b;
     font-size: 28px;
     font-weight: 700;
