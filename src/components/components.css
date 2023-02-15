@@ -227,8 +227,8 @@
 .sectiontwoleft h2,
 .sectionthreeleft h2 {
   color: #333333;
-  font-size: 39px;
-  font-weight: 800;
+  font-size: 48px;
+  font-weight: 700;
   line-height: 53px;
 }
 
@@ -276,7 +276,7 @@
   }
 
   .sectionbody {
-    padding: 140px 50px 0 50px;
+    padding: 100px 50px 0 50px;
   }
 
   .sectionone {
@@ -343,7 +343,7 @@
 
   /* section two */
   .sectionbody {
-    padding: 140px 50px 0 50px;
+    padding: 100px 50px 0 50px;
   }
 
   .sectionone {
@@ -379,7 +379,7 @@
 
 @media screen and (max-width: 425px) {
   .sectionbody {
-    padding: 140px 16px 0px 16px;
+    padding: 100px 16px 0px 16px;
   }
 
   .sectiontwoleft h2,
