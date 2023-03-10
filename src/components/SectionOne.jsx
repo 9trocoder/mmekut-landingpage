@@ -1,6 +1,6 @@
 import React from "react";
 import "./components.css";
-import secone from "../assets/svg/secone.svg";
+import secone from "../assets/img/lady.png";
 
 function SectionOne() {
   return (

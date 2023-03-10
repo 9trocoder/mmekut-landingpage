@@ -1,19 +1,20 @@
 import React from "react";
 import calendarimg from "../assets/img/calendarimg.png";
-import "./components.css"
+import "./components.css";
 
-function SectionThree() {
+function section__right() {
   return (
     <div className="sectionbody">
-      <div className="sectionthree">
+      <div className="section__right">
         <img src={calendarimg} alt="" />
-        <div className="sectionthreeleft">
-          <div className="secthreetag">
+        <div className="section__right-body">
+          <div className="section__right-tag">
             <h6>Calendar</h6>
           </div>
           <h2>Flexible Calendar views</h2>
           <p>
-            With Calendar views, you can check and handle your schedules in a more convenient way.
+            With Calendar views, you can check and handle your schedules in a
+            more convenient way.
           </p>
         </div>
       </div>
@@ -21,4 +22,4 @@ function SectionThree() {
   );
 }
 
-export default SectionThree;
+export default section__right;
