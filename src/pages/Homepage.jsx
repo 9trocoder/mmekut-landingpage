@@ -9,6 +9,7 @@ import calendarpng from "../assets/img/calendarimg.png";
 import reminderpng from "../assets/img/reminderimg.png";
 import communicationpng from "../assets/img/communication.png";
 import trackpng from "../assets/img/track.png";
+import SectionSyn from "../components/SectionSyn";
 
 function Homepage() {
   return (
@@ -43,7 +44,7 @@ function Homepage() {
         sectagcolor="#4E49DF"
       />
 
-<SectionRight
+      <SectionRight
         sectag="Track"
         image={trackpng}
         title="Follow up on your productivity"
@@ -51,6 +52,8 @@ function Homepage() {
         background="rgba(39, 174, 96, 0.05)"
         sectagcolor="#27AE60"
       />
+
+      <SectionSyn />
     </>
   );
 }
