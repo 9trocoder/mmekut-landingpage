@@ -317,6 +317,23 @@
   padding: 97px 74px;
   align-items: center;
 }
+
+
+/* testimonies */
+.tstrleft {
+  display: flex;
+}
+
+.tstrleftright {
+  display: grid;
+  gap: 50px;
+}
+
+.tstrleftright img {
+  cursor: pointer;
+}
+
+
 @media screen and (max-width: 1166px) {
   .section__right {
     display: flex;
