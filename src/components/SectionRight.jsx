@@ -2,6 +2,7 @@ import React from "react";
 
 function SectionRight({ sectag, background, title, paragraph, image, sectagcolor }) {
   return (
+    
     <div className="sectionbody">
       <div
         className="section__right"

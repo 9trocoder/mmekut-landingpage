@@ -11,6 +11,7 @@ import communicationpng from "../assets/img/communication.png";
 import trackpng from "../assets/img/track.png";
 import SectionSyn from "../components/SectionSyn";
 import CustomerService from "../components/CustomerService";
+import Testimonies from "../components/Testimonies";
 
 function Homepage() {
   return (
@@ -56,6 +57,7 @@ function Homepage() {
 
       <SectionSyn />
       <CustomerService />
+      <Testimonies />
     </>
   );
 }
