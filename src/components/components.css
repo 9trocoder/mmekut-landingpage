@@ -150,7 +150,6 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  background-color: #fafbfc;
 }
 
 .sectionone_cnt,
@@ -197,6 +196,9 @@
 .sectionbody {
   padding: 140px 100px;
 }
+.sectioncus {
+  padding: 140px 100px;
+}
 
 .section__left {
   max-width: 1166px;
@@ -213,13 +215,19 @@
   width: 100%;
 }
 
+.sectioncus img {
+  width: 100%;
+}
+
 .section__left-body,
-.section__right-body {
+.section__right-body, .sectioncusrightbody {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: 17px;
 }
+
+
 
 .section__left-tag {
   padding: 12px 24px;
@@ -242,15 +250,16 @@
 }
 
 .section__left-body h2,
-.section__right-body h2 {
+.section__right-body h2, .sectioncusrightbody h2 {
   color: #333333;
   font-size: 48px;
   font-weight: 700;
   line-height: 53px;
 }
 
+
 .section__left-body p,
-.section__right-body p {
+.section__right-body p, .sectioncusrightbody p {
   font-size: 14px;
   line-height: 27px;
   color: #4e5d78;
@@ -267,7 +276,16 @@
   gap: 50px;
   padding: 97px 74px;
 }
-
+.sectioncusright {
+  max-width: 1166px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+  padding: 97px 74px;
+  align-items: center;
+  
+}
 @media screen and (max-width: 1166px) {
   .section__right {
     display: flex;
@@ -292,6 +310,10 @@
   }
 
   .sectionbody {
+    padding: 100px 50px 0 50px;
+  }
+
+  .sectioncus {
     padding: 100px 50px 0 50px;
   }
 
@@ -341,11 +363,19 @@
   .section__left {
     grid-template-columns: 1fr;
     padding: 20px 20px;
+  
+  }
+
+  .sectioncusright {
+    grid-template-columns: 1fr;
+    padding: 20px 20px;
   }
 
   .section__right {
     padding: 20px 20px;
   }
+
+  
 
   .herobtn {
     height: 45px;
@@ -371,7 +401,7 @@
   }
 
   .section__left-body h2,
-  .section__right-body h2 {
+  .section__right-body h2, .sectioncusrightbody h2 {
     color: #323b4b;
     font-size: 28px;
     font-weight: 700;
@@ -379,7 +409,7 @@
   }
 
   .section__left-body p,
-  .section__right-body p {
+  .section__right-body p, .sectioncusrightbody p {
     color: #4e5d78;
     font-size: 14px;
     letter-spacing: 0.2268px;
@@ -410,6 +440,10 @@
     padding: 100px 16px 0px 16px;
   }
 
+  .sectioncus {
+    padding: 100px 16px 0px 16px;
+  }
+
   .sectionone,
   .sectionsyn {
     padding-left: 16px;
@@ -417,7 +451,7 @@
   }
 
   .section__left-body h2,
-  .section__right-body h2 {
+  .section__right-body h2, .sectioncusrightbody h2 {
     color: #323b4b;
     font-size: 28px;
     font-weight: 700;

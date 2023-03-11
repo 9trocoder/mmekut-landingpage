@@ -10,6 +10,7 @@ import reminderpng from "../assets/img/reminderimg.png";
 import communicationpng from "../assets/img/communication.png";
 import trackpng from "../assets/img/track.png";
 import SectionSyn from "../components/SectionSyn";
+import CustomerService from "../components/CustomerService";
 
 function Homepage() {
   return (
@@ -54,6 +55,7 @@ function Homepage() {
       />
 
       <SectionSyn />
+      <CustomerService />
     </>
   );
 }
