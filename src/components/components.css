@@ -153,7 +153,7 @@
 }
 
 .tstcnt {
-  background-color: #F8FAFF;
+  background-color: #f8faff;
 }
 
 .testimonybody {
@@ -234,14 +234,14 @@
 }
 
 .section__left-body,
-.section__right-body, .sectioncusrightbody, .tstrright{
+.section__right-body,
+.sectioncusrightbody,
+.tstrright {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   gap: 17px;
 }
-
-
 
 .section__left-tag {
   padding: 12px 24px;
@@ -249,7 +249,8 @@
   justify-self: start;
 }
 
-.section__right-tag, .tsttag  {
+.section__right-tag,
+.tsttag {
   padding: 12px 24px;
   border-radius: 999px;
   justify-self: start;
@@ -260,7 +261,8 @@
 }
 
 .section__left-tag h6,
-.section__right-tag h6, .tsttag h6 {
+.section__right-tag h6,
+.tsttag h6 {
   color: #fff;
   font-weight: 600;
   line-height: 19.2px;
@@ -268,16 +270,18 @@
 }
 
 .section__left-body h2,
-.section__right-body h2, .sectioncusrightbody h2, .tstrright h2 {
+.section__right-body h2,
+.sectioncusrightbody h2,
+.tstrright h2 {
   color: #333333;
   font-size: 48px;
   font-weight: 700;
   line-height: 53px;
 }
 
-
 .section__left-body p,
-.section__right-body p, .sectioncusrightbody p {
+.section__right-body p,
+.sectioncusrightbody p {
   font-size: 14px;
   line-height: 27px;
   color: #4e5d78;
@@ -302,7 +306,6 @@
   gap: 50px;
   padding: 97px 74px;
   align-items: center;
-  
 }
 
 .testimonyright {
@@ -313,7 +316,6 @@
   gap: 50px;
   padding: 97px 74px;
   align-items: center;
-  
 }
 @media screen and (max-width: 1166px) {
   .section__right {
@@ -393,12 +395,11 @@
     gap: 48px;
   }
 
-  .section__left, .testimonyright {
+  .section__left,
+  .testimonyright {
     grid-template-columns: 1fr;
     padding: 20px 20px;
-  
   }
-
 
   .sectioncusright {
     grid-template-columns: 1fr;
@@ -408,8 +409,6 @@
   .section__right {
     padding: 20px 20px;
   }
-
-  
 
   .herobtn {
     height: 45px;
@@ -428,19 +427,20 @@
     padding: 100px 50px 0 50px;
   }
 
-
-.testimonybody {
-  padding: 50px 50px 0 50px;
-}
+  .testimonybody {
+    padding: 50px 50px 0 50px;
+  }
 
   .sectionone,
-  .sectionsyn  {
+  .sectionsyn {
     padding-left: 30px;
     padding-right: 30px;
   }
 
   .section__left-body h2,
-  .section__right-body h2, .sectioncusrightbody h2, .tstrright h2{
+  .section__right-body h2,
+  .sectioncusrightbody h2,
+  .tstrright h2 {
     color: #323b4b;
     font-size: 28px;
     font-weight: 700;
@@ -448,7 +448,8 @@
   }
 
   .section__left-body p,
-  .section__right-body p, .sectioncusrightbody p {
+  .section__right-body p,
+  .sectioncusrightbody p {
     color: #4e5d78;
     font-size: 14px;
     letter-spacing: 0.2268px;
@@ -456,7 +457,8 @@
   }
 
   .section__left-tag h6,
-  .section__right-tag h6, .tsttag h6 {
+  .section__right-tag h6,
+  .tsttag h6 {
     color: #fff;
     font-weight: 600;
     line-height: 19.2px;
@@ -488,14 +490,16 @@
   }
 
   .sectionone,
-  .sectionsyn, 
+  .sectionsyn,
   .testimonyright {
     padding-left: 16px;
     padding-right: 16px;
   }
 
   .section__left-body h2,
-  .section__right-body h2, .sectioncusrightbody h2, .testimonyright h2 {
+  .section__right-body h2,
+  .sectioncusrightbody h2,
+  .testimonyright h2 {
     color: #323b4b;
     font-size: 28px;
     font-weight: 700;
