@@ -203,12 +203,10 @@
 .section__left-tag {
   padding: 12px 24px;
   border-radius: 999px;
-  background-color: #0184fb;
   justify-self: start;
 }
 
 .section__right-tag {
-  background: #ef01f5;
   padding: 12px 24px;
   border-radius: 999px;
   justify-self: start;
