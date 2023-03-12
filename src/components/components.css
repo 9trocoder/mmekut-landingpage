@@ -557,4 +557,9 @@
     font-weight: 700;
     line-height: 34px;
   }
+
+  .tstrleftright {
+    display: grid;
+    gap: 30px;
+  }
 }
