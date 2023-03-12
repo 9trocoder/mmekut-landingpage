@@ -558,8 +558,9 @@
     line-height: 34px;
   }
 
-  .tstrleftright {
-    display: grid;
-    gap: 30px;
+  .tstrleft {
+    display: flex;
+    align-items: center;
+    gap: 35px;
   }
 }
