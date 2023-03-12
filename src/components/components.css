@@ -561,6 +561,6 @@
   .tstrleft {
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 16px;
   }
 }
