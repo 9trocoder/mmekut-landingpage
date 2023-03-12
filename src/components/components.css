@@ -317,7 +317,6 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
   padding: 97px 74px;
-  align-items: center;
 }
 
 /* testimonies */
@@ -340,8 +339,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding-bottom: 90px;
 }
 
