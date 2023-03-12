@@ -82,10 +82,10 @@ function Testimonies() {
           <div className="tstrleft">
             <div className="tstrleftleft">
               {testimonylist.slice(dcre, incre).map((testimonies, key) => (
-                <div key={key}>
-                  <p>"{testimonies.words}"</p>
+                <div className="testimoni1" key={key}>
+                  <p className="testimoniword">"{testimonies.words}"</p>
                   <h6>{testimonies.name}</h6>
-                  <p>{testimonies.location}</p>
+                  <p className="testimonilocation">{testimonies.location}</p>
                 </div>
               ))}
               {testimonylist
