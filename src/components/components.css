@@ -260,6 +260,8 @@
   background-color: #0184fb;
 }
 
+.testimonybody {
+}
 .section__left-tag h6,
 .section__right-tag h6,
 .tsttag h6 {
@@ -334,6 +336,15 @@
   cursor: pointer;
 }
 
+.tstrleftleft {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
 .testimoni1 {
   background: #ffffff;
   box-shadow: 2px 100px 80px rgba(0, 0, 0, 0.04),
@@ -342,8 +353,28 @@
     0px 20px 13px rgba(0, 0, 0, 0.01),
     0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
     0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
-    padding: 20px 16px;
-    height: 200px;
+  padding: 20px 16px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.testimoni2 {
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  z-index: 1;
+  padding: 20px 16px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 50px;
 }
 
 .testimoniword {
@@ -353,8 +384,8 @@
   letter-spacing: 0.2592px;
 }
 
-.testimoni1 h6 {
-  margin-top: 69px;
+.testimoni1 h6,
+.testimoni2 h6 {
   font-size: 14px;
   line-height: 20px;
   color: #000000;
@@ -567,5 +598,53 @@
     display: flex;
     align-items: center;
     gap: 16px;
+  }
+
+  .tstrleft {
+    display: grid;
+    position: relative;
+  }
+
+  .tstrleftleft {
+    grid-template-columns: 1fr;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .testimoni1 {
+    width: 270px;
+  }
+
+  .testimoni2 {
+    width: 270px;
+  }
+
+  .tstrleftright {
+    position: absolute;
+    right: -10px;
+    z-index: 4;
+    top: 20%;
+  }
+
+  .nexticon, .previousicon {
+    
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgb(225 236 255 / 50%);
+    backdrop-filter: blur(8px);
+    padding: 10px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .testimoni1 {
+    width: 250px;
+  }
+
+  .testimoni2 {
+    width: 230px;
   }
 }
