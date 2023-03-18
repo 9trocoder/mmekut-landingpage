@@ -12,6 +12,7 @@ import trackpng from "../assets/img/track.png";
 import SectionSyn from "../components/SectionSyn";
 import CustomerService from "../components/CustomerService";
 import Testimonies from "../components/Testimonies";
+import Footer from "../components/Footer";
 
 function Homepage() {
   return (
@@ -58,6 +59,7 @@ function Homepage() {
       <SectionSyn />
       <CustomerService />
       <Testimonies />
+      <Footer />
     </>
   );
 }
