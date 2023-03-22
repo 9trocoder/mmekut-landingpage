@@ -1,13 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import navlogo from "../assets/svg/mmekutlogo.svg";
 import menu from "../assets/svg/menu.svg";
 import "./components.css"
 
 function Navbar() {
+     const [show, handleShow] = useState(false);
+     const transitionNavBar = () => {
+    if (window.scrollY > 200) {
+      handleShow(true);
+    } else {
+      handleShow(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", transitionNavBar);
+    return () => window.removeEventListener("scroll", transitionNavBar);
+  }, []);
   return (
     <>
-        <nav className="navbar">
+        <nav className={show === false ? "navbar" : "navbar-white"}>
             <div className="navbar_left">
                 <Link to="/" className='navlogo'> 
                     <img src={navlogo} alt="" />

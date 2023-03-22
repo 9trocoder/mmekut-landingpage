@@ -8,6 +8,18 @@
   padding: 24px 48px;
 }
 
+.navbar-white {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 48px;
+}
+
+
+
 .navbar_rightitem {
   font-size: 14px;
   padding: 8px 16px;
