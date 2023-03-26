@@ -12,7 +12,7 @@ function Navbar() {
     } else {
       handleShow(false);
     }
-  };
+  };  
 
   useEffect(() => {
     window.addEventListener("scroll", transitionNavBar);
@@ -20,7 +20,7 @@ function Navbar() {
   }, []);
   return (
     <>
-        <nav className={show === false ? "navbar" : "navbar-white"}>
+        <nav className={`${show ? "navbar-white" : "navbar"}` }>
             <div className="navbar_left">
                 <Link to="/" className='navlogo'> 
                     <img src={navlogo} alt="" />
