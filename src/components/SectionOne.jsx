@@ -4,7 +4,8 @@ import secone from "../assets/img/lady.png";
 
 function SectionOne() {
   return (
-    <div className="sectionone">
+    <div className="sectiononebd">
+       <div className="sectionone">
       <div className="sectionone_cnt">
         <h2>Organize it all with one simple app</h2>
         <p>
@@ -17,6 +18,8 @@ function SectionOne() {
         <img src={secone} alt="" />
       </div>
     </div>
+    </div>
+   
   );
 }
 

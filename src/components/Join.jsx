@@ -11,7 +11,8 @@ function Join() {
 const jslist = [j1, j2, j3, j4, j5, j6]
 
   return (
-    <div className="join">
+    <div className="joinbd">
+      <div className="join">
         <div className="joincnt">
             <p>Join millions of people to capture ideas, organize life, chat and do something creative</p>
             <div className="joincntlist">
@@ -21,6 +22,8 @@ const jslist = [j1, j2, j3, j4, j5, j6]
             </div>
         </div>
     </div>
+    </div>
+    
   )
 }
 

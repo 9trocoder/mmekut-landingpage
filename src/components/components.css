@@ -95,9 +95,12 @@
 }
 
 /* join */
+.joinbd {
+  background-color: #fafbfc;
+}
 .join {
   padding: 140px 100px;
-  background-color: #fafbfc;
+  
   max-width: 1366px;
   margin: 0 auto;
   display: grid;
@@ -139,9 +142,12 @@
 }
 
 /* section one */
+.sectiononebd {
+  background-color: #fafbfc;
+}
 .sectionone {
   padding: 96px 0px 0px;
-  background-color: #fafbfc;
+  
   max-width: 1366px;
   margin: 0 auto;
   display: grid;
