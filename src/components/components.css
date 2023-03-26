@@ -455,7 +455,7 @@
   background-color: #0184fb;
   border-radius: 8px;
   border: none;
-  
+
 }
 @media screen and (max-width: 1166px) {
   .section__right {
@@ -485,11 +485,11 @@
   }
 
   .sectioncus {
-    padding: 100px 50px 0 50px;
+    padding: 100px 10px 0 10px;
   }
 
   .footerbody {
-    padding: 100px 50px 0 50px;
+    padding: 100px 10px 0 10px;
   }
 
   .footertitle {
@@ -555,7 +555,7 @@
     padding: 20px 20px;
   }
 
-  .sectioncusright {
+  .sectioncusright, .footer-top {
     grid-template-columns: 1fr;
     padding: 20px 20px;
   }
@@ -592,7 +592,7 @@
   }
 
   .sectionone,
-  .sectionsyn {
+  .sectionsyn, .footerbody {
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -609,7 +609,7 @@
 
   .footertitle {
     color: #323b4b;
-    font-size: 28px;
+    font-size: 21.5px;
     font-weight: 700;
     line-height: 34px;
     text-align: left;
@@ -660,6 +660,10 @@
     padding: 100px 10px 0px 10px;
   }
 
+  .footerbody {
+    padding: 100px 10px 0px 10px;
+  }
+
   .testimonybody {
     padding: 100px 10px 0px 10px;
   }
@@ -691,12 +695,7 @@
     line-height: 34px;
   }
 
-  .footertitle {
-    color: #323b4b;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 34px;
-  }
+ 
   .tstrleft {
     display: flex;
     align-items: center;
