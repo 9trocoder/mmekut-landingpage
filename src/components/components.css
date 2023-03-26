@@ -1,5 +1,6 @@
 /* nav */
-.navbar, .navbar-white {
+.navbar,
+.navbar-white {
   position: fixed;
   width: 100%;
   display: flex;
@@ -10,10 +11,8 @@
 
 .navbar-white {
   background-color: #fff;
-   box-shadow: 0 1px 5px rgb(225 236 255 / 50%);
+  box-shadow: 0 1px 5px rgb(225 236 255 / 50%);
 }
-
-
 
 .navbar_rightitem {
   font-size: 14px;
@@ -100,7 +99,7 @@
 }
 .join {
   padding: 140px 100px;
-  
+
   max-width: 1366px;
   margin: 0 auto;
   display: grid;
@@ -147,7 +146,7 @@
 }
 .sectionone {
   padding: 96px 0px 0px;
-  
+
   max-width: 1366px;
   margin: 0 auto;
   display: grid;
@@ -195,12 +194,21 @@
 }
 
 .sectionone_cnt h2,
-.sectionsyn_cnt h2, .footertitle {
+.sectionsyn_cnt h2,
+.footertitle {
   font-size: 36px;
   font-weight: 600;
   line-height: 51px;
   margin: 0px 0px 16px 0px;
   text-align: center;
+  color: #323b4b;
+}
+.footertitle {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 51px;
+  margin: 0px 0px 16px 0px;
+  text-align: left;
   color: #323b4b;
 }
 .sectionone_cnt p,
@@ -252,7 +260,7 @@
 
 .section__left-body,
 .section__right-body,
-.sectioncusrightbody, 
+.sectioncusrightbody,
 .tstrright {
   display: flex;
   align-items: flex-start;
@@ -298,11 +306,10 @@
   line-height: 53px;
 }
 
-
-
 .section__left-body p,
 .section__right-body p,
-.sectioncusrightbody p, .footerparagraph {
+.sectioncusrightbody p,
+.footerparagraph {
   font-size: 14px;
   line-height: 27px;
   color: #4e5d78;
@@ -329,14 +336,32 @@
   align-items: center;
 }
 
-.footer-top{
+.footer-top {
   max-width: 1166px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
   padding: 97px 74px;
+  padding-bottom: 50px;
+
   align-items: center;
+}
+
+.footer-bottom {
+  max-width: 1166px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  padding: 0px 74px;
+  border-top: 1px solid #8a94a686;
+  padding-top: 50px;
+}
+
+.footer-bottomright {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .testimonyright {
@@ -434,7 +459,7 @@
 .footeremailinput {
   width: 100%;
   height: 46px;
-  border: 1px solid #9A9FBF15;
+  border: 1px solid #9a9fbf15;
   font-family: inherit;
   font-size: 14px;
   line-height: 21px;
@@ -455,8 +480,34 @@
   background-color: #0184fb;
   border-radius: 8px;
   border: none;
-
 }
+
+.fbottom h3 {
+  color: #323b4b;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.36px;
+  line-height: 24.84px;
+  margin: 0px 0px 16px;
+  text-align: left;
+}
+.fblitem {
+  font-size: 14px;
+  line-height: 27px;
+  color: #8a94a6;
+  font-weight: 500;
+  margin: 0px 0px 8px;
+  letter-spacing: 0.2592px;
+}
+
+.footer-bottomleft > p {
+  margin-top: 20px;
+  max-width: 220px;
+}
+
+
 @media screen and (max-width: 1166px) {
   .section__right {
     display: flex;
@@ -468,6 +519,10 @@
   /* nav */
   .navbar_rightitem {
     display: none;
+  }
+
+  .footer-bottomright {
+    flex-direction: column;
   }
 
   .navmenu {
@@ -525,7 +580,8 @@
   .navmenu {
     display: block;
   }
-  .navbar, .navbar-white {
+  .navbar,
+  .navbar-white {
     position: fixed;
     width: 100%;
     display: flex;
@@ -537,7 +593,6 @@
     height: 70px;
   }
 
- 
   .navbar_rightitem {
     display: none;
   }
@@ -555,7 +610,8 @@
     padding: 20px 20px;
   }
 
-  .sectioncusright, .footer-top {
+  .sectioncusright,
+  .footer-top {
     grid-template-columns: 1fr;
     padding: 20px 20px;
   }
@@ -563,8 +619,13 @@
   .footer-top {
     grid-template-columns: 1fr;
     padding: 20px 20px;
+    padding-bottom: 50px;
   }
-  
+
+  .footer-bottom {
+  padding: 20px 20px;
+  padding-top: 50px;
+  }
 
   .section__right {
     padding: 20px 20px;
@@ -592,7 +653,8 @@
   }
 
   .sectionone,
-  .sectionsyn, .footerbody {
+  .sectionsyn,
+  .footerbody {
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -642,7 +704,8 @@
 }
 
 @media screen and (max-width: 425px) {
-  .navbar, .navbar-white {
+  .navbar,
+  .navbar-white {
     position: fixed;
     width: 100%;
     display: flex;
@@ -662,6 +725,7 @@
 
   .footerbody {
     padding: 100px 10px 0px 10px;
+    padding-bottom: 90px;
   }
 
   .testimonybody {
@@ -678,6 +742,9 @@
     padding: 20px 10px;
   }
 
+  .footer-bottom {
+    padding: 20px 10px;
+  }
   .sectionone,
   .sectionsyn,
   .testimonyright {
@@ -695,7 +762,6 @@
     line-height: 34px;
   }
 
- 
   .tstrleft {
     display: flex;
     align-items: center;
@@ -728,8 +794,8 @@
     top: 20%;
   }
 
-  .nexticon, .previousicon {
-    
+  .nexticon,
+  .previousicon {
     background-color: #fff;
     box-shadow: 0 1px 5px rgb(225 236 255 / 50%);
     backdrop-filter: blur(8px);
