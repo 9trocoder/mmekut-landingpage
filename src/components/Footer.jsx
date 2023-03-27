@@ -34,6 +34,7 @@ function Footer() {
             <h3>Highlights</h3>
             <div className="fbottom-list">
               <p className="fblitem">Pricing</p>
+              <p className="fblitem">How it works</p>
             </div>
           </div>
           <div className="fbottom">
