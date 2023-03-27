@@ -33,8 +33,7 @@ function Footer() {
           <div className="fbottom">
             <h3>Highlights</h3>
             <div className="fbottom-list">
-              <p className="fblitem">Features</p>
-              <p className="fblitem">Premium</p>
+              <p className="fblitem">Pricing</p>
             </div>
           </div>
           <div className="fbottom">
@@ -42,7 +41,6 @@ function Footer() {
             <div className="fbottom-list">
               <p className="fblitem">Privacy Policy</p>
               <p className="fblitem">Terms of use</p>
-              <p className="fblitem">The Team</p>
               <p className="fblitem">Get Started</p>
             </div>
           </div>

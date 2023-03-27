@@ -27,9 +27,7 @@ function Navbar() {
                 </Link>
             </div>
             <div className="navbar_right">
-                <Link to="/" className="navbar_rightitem">Features</Link>
-                <Link to="/" className="navbar_rightitem">Premium</Link>
-                <Link to="/" className="navbar_rightitem">The Team</Link>
+                <Link to="/" className="navbar_rightitem">Pricing</Link>
                 <Link to="/" className="navbar_rightitem">Log in</Link>
                 <Link to="/" className="navbar_rightitem  navbar_button">Get started</Link>
                 <div className="navmenu">
