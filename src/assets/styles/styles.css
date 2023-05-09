@@ -1,0 +1,107 @@
+/* Utility Classes */
+
+.navbar_mmekut {
+    position: absolute;
+    width: 114px;
+    height: 39px;
+    left: 50px;
+    top: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.065em;
+
+    color: #0184FB;
+}
+
+.navlogo {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+ .navbar_mmekut {
+    visibility: hidden;
+ }
+  }
+
+  .heroBeta {
+    padding: 116px 70px;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* background: linear-gradient(95.67deg,#75cffa .29%,#ccffea); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.heroBetaLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.heroos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    column-gap: 1em;
+}
+
+
+.herobtnRight {
+    background-color: transparent;
+    border-radius: 6px;
+    font-style: normal;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 14px 24px 16px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid ;
+  }
+
+  .herobtnGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+  }
+
+  .mx-width{
+    max-width: 410px;
+  }
+
+  .imgGroup{
+    position: relative;
+  }
+
+  .imgpoition{
+    position: absolute;
+    top: -140px;
+    right: -90px;
+    z-index: 0px;
+  }
+
+  .imgResizeClass{
+    width: 400px;
+    height: 400px;
+  }
+
+  .imgResizeClass2{
+    width: 220px;
+    height: 300px;
+  }
+
+  
+  /* .heroHeading{
+    position: absolute;
+    top: 20px;
+    width: 1000px;
+    text-align: center;
+    padding-bottom: 200px;
+  } */
