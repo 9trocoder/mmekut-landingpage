@@ -35,7 +35,7 @@ function Navbar() {
           </Link>
         </div>
         <div className="navbar_right">
-        <Link to="/" className="navbar_rightitem ">
+        <Link to="/features" className="navbar_rightitem ">
             Features
           </Link>
           <Link to="/" className="navbar_rightitem">

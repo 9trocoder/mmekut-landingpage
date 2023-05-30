@@ -1,54 +1,58 @@
 import React from "react";
 import mmekutlogo from "../assets/svg/mmekutlogo.svg";
 import "./components.css";
+import "../assets/styles/styles.css"
+import twitter from "../assets/svg/twitter.svg"
+import insta from "../assets/svg/insta.svg"
+
 
 function Footer() {
   return (
     <div className="footerbody">
-      <div className="footer-top">
-        <div className="footer-topleft">
-          <h2 className="footertitle">Subscribe to our Newsletter</h2>
-          <p className="footerparagraph">
-            You can join our mailing list and be the first to receive
-            information about new updates and exciting stuff we are working on.
-          </p>
+      <div className="footercnt">
+        <div className="footercnt-left">
+
+          <div className="footerlogo">
+            <img src={mmekutlogo} alt="footerLogo" />
+            <span className="">mmekut</span>
+          </div>
+
+          <div className="footercont">
+            <p> Built to handle multiple projects across cross-functional teams</p>
+          </div>
+
         </div>
-        <div className="footer-topright">
-          <input
-            type="text"
-            placeholder="Enter email address"
-            className="footeremailinput"
-          />
-          <button className="footersubmitbtn">Subscribe</button>
-        </div>
-      </div>
-      <div className="footer-bottom">
-        <div className="footer-bottomright">
-          <div className="footer-bottomleft">
-            <img src={mmekutlogo} alt="" />
-            <p className="footerparagraph">
-              Built to handle mulitiple projects across cross-functional teams.
-            </p>
+
+        <div className="footercnt-right">
+          <div className="footerlinksCnt">
+            <h1>Highlights</h1>
+            <ul>
+              <li>Features</li>
+              <li>How it works</li>
+              <li>Pricing</li>
+            </ul>
           </div>
-          <div className="fbottom">
-            <h3>Highlights</h3>
-            <div className="fbottom-list">
-              <p className="fblitem">Pricing</p>
-              <p className="fblitem">How it works</p>
-            </div>
+          <div className="footerlinksCnt">
+            <h1>Quick Links</h1>
+            <ul>
+              <li>Privacy Policy</li>
+              <li>Terms of Use</li>
+              <li>Get Started</li>
+            </ul>
           </div>
-          <div className="fbottom">
-            <h3>Quick Links</h3>
-            <div className="fbottom-list">
-              <p className="fblitem">Privacy Policy</p>
-              <p className="fblitem">Terms of use</p>
-              <p className="fblitem">Get Started</p>
-            </div>
-          </div>
-          <div className="fbottom">
-            <h3>Support</h3>
-            <p className="footerparagraph">Feel free to get in touch with us via email</p>
-            <p className="footerparagraph">Email: <strong>support@mmekutapp.com</strong></p>
+          <div className="footerlinksCnt">
+            <h1>Support</h1>
+            <ul>
+              <li>Feel free to get in touch with us via email</li>
+              <li> Email: support@mmekutapp.com</li>
+              <li>
+                <div>
+                <img src={twitter} alt="twitterLogo" />
+                <img src={insta} alt="instaLogo" />
+
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ function SectionSyn() {
         <p>
         Join millions of creative members in one place. Get<span> mmekut</span> on any device to explore and enjoy all features and so much more in all platforms. You’ll be able to review your upcoming tasks, and create new ones no matter where you are. Everything stays in perfect sync across all platforms. Getting things done has never been this easy. 
         </p>
-        <img className="imgbuild" src={syncdevice} alt="" />
+        <img className="imgbuild" src={syncdevice} alt="sectionSys" />
       </div>
     </div>
   );

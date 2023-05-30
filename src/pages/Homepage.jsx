@@ -9,6 +9,8 @@ import SectionSyn from "../components/SectionSyn";
 import CustomerService from "../components/CustomerService";
 
 import Testimonials from "../components/Testimonials";
+import QuestionAnswer from "../components/QuestionAnswer";
+
 
 import Footer from "../components/Footer";
 
@@ -22,7 +24,7 @@ function Homepage() {
       <SectionSyn />
       <CustomerService />
       <Testimonials />
-      {/* <Testimonies /> */}
+      <QuestionAnswer />
       <Footer />
     </>
   );

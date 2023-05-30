@@ -1,15 +1,44 @@
 import React from "react";
 // import heroimage from "../assets/img/hero.png";
-import heroimage from "../assets/img/herobeta.png";
+import heroimage from "../assets/img/heroImg.png";
+import pinkVector from "../assets/svg/bgVectorCpink.svg"
+import blueVector from "../assets/svg/bgVectorCblue.svg"
+import yellowEllipse from "../assets/svg/Ellipseyellow.svg"
+import pinkEllipse from "../assets/svg/Ellipsepink.svg"
+import blueEllipse from "../assets/svg/Ellipseblue.svg"
+
+
+
+
 
 import playicon from "../assets/img/svg/Vector.svg"
 
 function Hero() {
   return (
     <div className="herobody">
+      {/* Vectors in Postitions */}
+      <img className="vector-one" src={pinkVector} alt="vectorpink" />
+      <img className="vector-two" src={blueVector} alt="vectorblue" />
+      <img className="ellipse-one" src={yellowEllipse} alt="yellowellipse" />
+      <img className="ellipse-two" src={pinkEllipse} alt="pinkellipse" />
+      <img className="ellipse-three" src={yellowEllipse} alt="yellowellipse" />
+      <img className="ellipse-four" src={yellowEllipse} alt="yellowellipse" />
+      <img className="ellipse-five" src={blueEllipse} alt="blueellipse" />
+      <img className="ellipse-six" src={blueEllipse} alt="blueellipse" />
+      <img className="ellipse-seven" src={blueEllipse} alt="blueellipse" />
+      <img className="ellipse-eight" src={blueEllipse} alt="blueellipse" />
+      <img className="ellipse-nine" src={blueEllipse} alt="blueellipse" />
+      <img className="ellipse-ten" src={blueEllipse} alt="blueellipse" />
 
+
+
+
+
+
+
+      
+      {/* Vectors End */}
       <div className="heroBeta">
-
         <div className="heroleft heroBetaLeft">
           <h1 className="heroHeading">
             The one place to stay <span>Organized </span>and productive
@@ -28,7 +57,7 @@ function Hero() {
         </div>
 
         <div className="heroright">
-          <img src={heroimage} alt="hero-image" />
+          <img src={heroimage} alt="hero" />
         </div>
 
       </div>
