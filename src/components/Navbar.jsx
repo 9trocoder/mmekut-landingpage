@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import navlogo from "../assets/svg/mmekutlogo.svg";
-import menu from "../assets/svg/menu.svg";
+import menu from "../assets/svg/svgmenu.svg";
 import "./components.css";
 import "../assets/styles/styles.css"
 

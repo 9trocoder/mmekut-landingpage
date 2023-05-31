@@ -29,15 +29,8 @@ function Hero() {
       <img className="ellipse-eight" src={blueEllipse} alt="blueellipse" />
       <img className="ellipse-nine" src={blueEllipse} alt="blueellipse" />
       <img className="ellipse-ten" src={blueEllipse} alt="blueellipse" />
-
-
-
-
-
-
-
-      
       {/* Vectors End */}
+      
       <div className="heroBeta">
         <div className="heroleft heroBetaLeft">
           <h1 className="heroHeading">
