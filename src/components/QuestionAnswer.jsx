@@ -1,5 +1,8 @@
 import React from "react";
 import Accordion from "./Accordian";
+import waveDash from "../assets/svg/Vectorwave-dash.svg"
+import waveSolid from "../assets/svg/vectorWave-solid.svg"
+
 import "../assets/styles/styles.css"
 
 
@@ -48,6 +51,9 @@ function Testimonials() {
                 {/* Get Started */}
 
                 <div className="nnn">
+                    <img className="wave-d" src={waveDash} alt="wave dashed" />
+                    <img className="wave-s" src={waveSolid} alt="wave solid" />
+
                     <div className="getStartcnt">
                         <div className="getcntTop">
                             <h1>Get started today </h1>
