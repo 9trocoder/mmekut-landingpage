@@ -46,6 +46,7 @@
 .herobody {
   background: rgb(248, 250, 255 0.1);
   position: relative;
+  overflow: hidden;
 
 }
 
